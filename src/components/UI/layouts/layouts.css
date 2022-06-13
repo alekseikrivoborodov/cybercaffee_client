@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+}
+
+.navbar-links{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.navbar-links a {
+    margin: 10px 5px;
+    justify-content: left;
+}
+
+.navbar-links button {
+    justify-content: right;
+    float: right;
+}
