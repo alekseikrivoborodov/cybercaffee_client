@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alekseikrivoborodov/cybercaffee_client/static/css/main.ef908973.css",
+    "main.js": "/alekseikrivoborodov/cybercaffee_client/static/js/main.70dea89e.js",
+    "index.html": "/alekseikrivoborodov/cybercaffee_client/index.html",
+    "main.ef908973.css.map": "/alekseikrivoborodov/cybercaffee_client/static/css/main.ef908973.css.map",
+    "main.70dea89e.js.map": "/alekseikrivoborodov/cybercaffee_client/static/js/main.70dea89e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef908973.css",
+    "static/js/main.70dea89e.js"
+  ]
+}
