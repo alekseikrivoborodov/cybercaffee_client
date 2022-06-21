@@ -5,9 +5,10 @@ import { useState } from "react";
 
 const CardList = ({ cards, title }) => {
 
+
     return (
         <div>
-            <h1>Список Блюд</h1>
+            <h1>Список Блюд этой категории, смотрите путь сверху</h1>
             <div className="card-list">
                 {cards.map((card, index) =>
                     <Card number={index + 1} card={card} key={card.id}/>)}

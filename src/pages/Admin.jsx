@@ -5,12 +5,7 @@ import CardList from '../components/CardList';
 
 
 
-function Admin() {
-    const [cards, setCards] = useState([
-        { id: 1, title: "Крылышки", img: "https://bipbap.ru/wp-content/uploads/2017/06/14813uxVsXjAPBFmIovEzZkHNnR.jpg", description: 'None' },
-        { id: 2, title: "Салат", img: "https://bipbap.ru/wp-content/uploads/2017/06/14813uxVsXjAPBFmIovEzZkHNnR.jpg", description: 'None' },
-        { id: 3, title: "Бургер", img: "https://bipbap.ru/wp-content/uploads/2017/06/14813uxVsXjAPBFmIovEzZkHNnR.jpg", description: 'None' },
-    ])
+function Admin({cards, create}) {
 
     const [title, setTitle] = useState("")
     const [description, setDescription] = useState("")
@@ -18,13 +13,15 @@ function Admin() {
 
     const addNewCard = (e) => {
         e.preventDefault()
+
         const newCard = {
             id: Date.now(),
             title,
             description,
             img
         }
-        setCards([...cards, newCard])
+        create(newCard)
+
         setTitle('')
         setDescription('')
         setImg('')

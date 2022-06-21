@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import './cards.css'
 import MyButton from "./UI/button/MyButton";
 
-const Card = (props, onChange) => {
+const Card = (props) => {
+
 
     const AddNewOrderItem = (event) => {
-        onChange(props.card)
-        console.log(event)
+        event.preventDefault()
+        // add(props.card)
     }
+
+
     return(
         <div className="card">
             <img src={props.card.img} alt="img"></img>

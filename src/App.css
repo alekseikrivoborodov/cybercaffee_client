@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.MainCard-enter {
+  opacity: 0;
+}
+.MainCard-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.MainCard-exit {
+  opacity: 1;
+}
+.MainCard-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}

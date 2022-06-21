@@ -14,8 +14,8 @@ const Layout = (props) => {
         <div className='navbar'>
             <header className='navbar-links'>
                 <Link to="/admin">Админ</Link>
-                <Link to="/kitchen">Кухня</Link>
-                <Link to="/client">Посетитель</Link>
+                <Link to="/kitchen">Стол</Link>
+                <Link to="/client">Кухня(отключен)</Link>
 
                 {role == "client" ?
                     <div>

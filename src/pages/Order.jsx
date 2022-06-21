@@ -7,8 +7,7 @@ const Order = () => {
     const [orderList, setOrderList] = useState([])
 
     const AddNewOrderItem = (orderList) => 
-        setOrderList([...orderList, 1])
-        console.log(orderList)
+        setOrderList([...orderList, ])
 
     // const addNewCardtoOrder = (e) => {
     //     e.preventDefault()
@@ -20,7 +19,7 @@ const Order = () => {
         <div>
             <div className="card-list">
                 {orderList.map((card, index) =>
-                    <Card number={index + 1} card={card} key={card.id} onChange={AddNewOrderItem}/>)}
+                    <Card number={index + 1} card={card} key={card.id} add={AddNewOrderItem}/>)}
             </div>
         </div>
     );

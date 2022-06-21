@@ -1,0 +1,39 @@
+.MainCard {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.SoloMainCard {
+    width: 200px;
+    height: 200px;
+    border: black solid 2px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.SoloMainCard img {
+    max-width: 150px;
+}
+
+.SoloMainCard:hover {
+    scale: 1.2;
+    border: rgb(237, 4, 4) solid 2px; 
+    animation: move 2s linear; 
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0px);
+        scale: 1;
+    }
+    to {
+        transform: translateY(-25px);
+        scale: 1.5;
+    }
+}
+
