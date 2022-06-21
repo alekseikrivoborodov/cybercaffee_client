@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/alekseikrivoborodov.github.io/cybercaffee_client/static/css/main.ef908973.css",
-    "main.js": "/alekseikrivoborodov.github.io/cybercaffee_client/static/js/main.70dea89e.js",
-    "index.html": "/alekseikrivoborodov.github.io/cybercaffee_client/index.html",
-    "main.ef908973.css.map": "/alekseikrivoborodov.github.io/cybercaffee_client/static/css/main.ef908973.css.map",
-    "main.70dea89e.js.map": "/alekseikrivoborodov.github.io/cybercaffee_client/static/js/main.70dea89e.js.map"
+    "main.css": "/cybercaffee_client/static/css/main.ef908973.css",
+    "main.js": "/cybercaffee_client/static/js/main.70dea89e.js",
+    "index.html": "/cybercaffee_client/index.html",
+    "main.ef908973.css.map": "/cybercaffee_client/static/css/main.ef908973.css.map",
+    "main.70dea89e.js.map": "/cybercaffee_client/static/js/main.70dea89e.js.map"
   },
   "entrypoints": [
     "static/css/main.ef908973.css",
